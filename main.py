@@ -126,6 +126,75 @@ print(list2)
 nestedList = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(nestedList[0][1])
 
+# opeartors
+# arithmetic operators
+print(5 + 3)
+print(5 - 3)
+print(5 * 3)
+print(5 / 3)
+print(5 // 3)
+print(5 % 3)
+print(5 ** 3)
+
+# comparison operators
+print(5 == 3)
+print(5 != 3)
+print(5 > 3)
+print(5 < 3)
+print(5 >= 3)
+print(5 <= 3)
+
+# logical operators
+print(5 == 3 and 5 != 3)
+print(5 == 3 or 5 != 3)
+print(not(5 == 3 and 5 != 3))
+
+# identity operators
+print(5 is 3)
+print(5 is not 3)
+
+# membership operators
+print(5 in [1, 2, 3, 4, 5])
+print(5 not in [1, 2, 3, 4, 5])
+
+# bitwise operators
+print(5 & 3)
+print(5 | 3)
+print(5 ^ 3)
+print(~5)
+print(5 << 3)
+print(5 >> 3)
+
+# assignment opertors
+a = 5
+a += 3
+print(a)
+a -= 3
+print(a)
+a *= 3
+print(a)
+a /= 3
+print(a)
+a //= 3
+print(a)
+a %= 3
+print(a)
+a **= 3
+print(a)
+a &= 3
+print(a)
+a |= 3
+print(a)
+a ^= 3
+print(a)
+a >>= 3
+print(a)
+a <<= 3
+print(a)
+
+
+
+
 
 
 
