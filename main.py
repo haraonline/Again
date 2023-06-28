@@ -10,12 +10,12 @@
 #     <code>
 
 number = int(input("Enter any number from 0 to 10 : "))
-if number < 10:
-    print("Number is less than 10")
-elif number > 10:
-    print("Number is greater than 10")
-else:
-    print("Number is equal to 10")
+# if number < 10:
+#     print("Number is less than 10")
+# elif number > 10:
+#     print("Number is greater than 10")
+# else:
+#     print("Number is equal to 10")
 
 # oneline if statement
 # if <condition>: <code> else: <code>
@@ -24,6 +24,10 @@ else:
 # if number < 10: print("Number is less than 10")
 # elif number > 10: print("Number is greater than 10")
 
-if number < 10: print("Number is less than 10") elif number > 10: print("Number is greater than 10") else: print("Number is equal to 10")
+# oneline if elif else statement for the number variable
+print("Number is less than 10") if number < 10 else print("Number is greater than 10") if number > 10 else print("Number is equal to 10")
+
+
+
 
 
