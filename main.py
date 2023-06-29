@@ -1,45 +1,27 @@
+# what is for loop
+# for loop is used to iterate over a sequence (list, tuple, string) or other iterable objects
+# Iterating over a sequence is called traversal
+# break and continue can be used inside for loop
 
 
+for element in [1, 2, 3, 4, 5]:
+    print(element)
 
-# how does while loop works
-# while loop is a conditional loop
-# it will keep running until the condition is true
-# once the condition is false, it will stop running
+print("....................")
 
-# i = 0
-# while i < 10:
-#     print(i < 10)
-#     i += 1
-# print("--------------------")
+for element in "Hello World!":
+    print(element)
 
-password = "pass123"
-user_input = ""
-counter = 0
+print("....................")
 
-# while user_input != password and counter < 3:
-#     # if counter == 3:
-#     #     print("You have reached maximum number of tries")
-#     #     break
-#     user_input = input("Enter your password: ")
-#     counter += 1
-
-# # print("You are logged in")
+for element in range(6): # range(1, 6)
+    print(element)
+print("....................")
 
 
-# while True:
-#     name = input("Enter your name: ")
-#     if name != "hara":
-#         continue
-#     else:
-#         break
-# print("You are logged in")
+for element in range(1, 20, 3):
+    print(element)
+print("....................")
 
+# range can also go in the reverse direction
 
-while user_input != password:
-    if counter == 3:
-        print("You have reached maximum number of tries")
-        break
-    user_input = input("Enter your password: ")
-    counter += 1
-else:
-    print("You are logged in")
