@@ -12,9 +12,9 @@
 #     i += 1
 # print("--------------------")
 
-# password = "pass123"
-# user_input = ""
-# counter = 0
+password = "pass123"
+user_input = ""
+counter = 0
 
 # while user_input != password and counter < 3:
 #     # if counter == 3:
@@ -26,10 +26,20 @@
 # # print("You are logged in")
 
 
-while True:
-    name = input("Enter your name: ")
-    if name != "hara":
-        continue
-    else:
+# while True:
+#     name = input("Enter your name: ")
+#     if name != "hara":
+#         continue
+#     else:
+#         break
+# print("You are logged in")
+
+
+while user_input != password:
+    if counter == 3:
+        print("You have reached maximum number of tries")
         break
-print("You are logged in")
+    user_input = input("Enter your password: ")
+    counter += 1
+else:
+    print("You are logged in")
