@@ -46,3 +46,28 @@ def get_person():
 
 person = get_person()
 print(person)
+
+# arbitratory number arguments as a tuple
+def multiply(*args):
+    x = 1
+    for arg in args:
+        x *= arg
+    return x
+
+print(multiply(2, 4, 6))
+
+print(multiply()) # returns 1 and is wrong, rewritten below
+
+def multiply2(num1, num2, *args):
+    x = num1 * num2
+    for arg in args:
+        x *= arg
+    return x
+
+
+# print options
+print("Hello", "World", sep=" --- ", end=" *** ")
+print("Hello", "again", sep=" --- ", end=" >>> ")
+print("bye") # default end is \n
+print("see you later")
+print("this", "is", "a", "test", sep=" ")
