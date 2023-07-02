@@ -71,3 +71,11 @@ print("Hello", "again", sep=" --- ", end=" >>> ")
 print("bye") # default end is \n
 print("see you later")
 print("this", "is", "a", "test", sep=" ")
+
+
+def print_name(first_name, last_name):
+    global title    
+    print("Hello", title, first_name, last_name)        
+
+title = "Dr"
+print_name("John", "Doe")
